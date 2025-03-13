@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2">
               <Shield className="h-6 w-6" />
-              <span className="font-bold">SecureIT Solutions</span>
+              <span className="font-bold">Risk Hub Services</span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
               Protecting your digital assets with industry-leading security solutions.
@@ -17,7 +17,7 @@ export function Footer() {
           <div className="grid grid-cols-1 gap-4">
             <div className="space-y-2">
               <h4 className="font-medium">Contact</h4>
-              <p className="text-sm text-muted-foreground">contact@secureit.example</p>
+              <p className="text-sm text-muted-foreground">contact@riskhub.example</p>
               <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
             </div>
           </div>
@@ -33,7 +33,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          © 2024 SecureIT Solutions. All rights reserved.
+          © 2024 Risk Hub Services. All rights reserved.
         </div>
       </div>
     </footer>

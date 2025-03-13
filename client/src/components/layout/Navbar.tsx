@@ -9,7 +9,7 @@ export function Navbar() {
         <Link href="/">
           <a className="flex items-center space-x-2">
             <Shield className="h-6 w-6" />
-            <span className="font-bold">SecureIT Solutions</span>
+            <span className="font-bold">Risk Hub Services</span>
           </a>
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-4">
