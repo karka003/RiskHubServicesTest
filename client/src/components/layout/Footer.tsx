@@ -17,8 +17,7 @@ export function Footer() {
           <div className="grid grid-cols-1 gap-4">
             <div className="space-y-2">
               <h4 className="font-medium">Contact</h4>
-              <p className="text-sm text-muted-foreground">contact@riskhub.example</p>
-              <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-sm text-muted-foreground">contact@riskhubservices.com</p>
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4">
