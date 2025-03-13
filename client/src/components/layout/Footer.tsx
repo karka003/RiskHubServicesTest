@@ -1,0 +1,41 @@
+import { Shield } from "lucide-react";
+
+export function Footer() {
+  return (
+    <footer className="border-t bg-muted/40">
+      <div className="container py-8 md:py-12">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+          <div>
+            <div className="flex items-center space-x-2">
+              <Shield className="h-6 w-6" />
+              <span className="font-bold">SecureIT Solutions</span>
+            </div>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Protecting your digital assets with industry-leading security solutions.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 gap-4">
+            <div className="space-y-2">
+              <h4 className="font-medium">Contact</h4>
+              <p className="text-sm text-muted-foreground">contact@secureit.example</p>
+              <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 gap-4">
+            <div className="space-y-2">
+              <h4 className="font-medium">Address</h4>
+              <p className="text-sm text-muted-foreground">
+                123 Security Street<br />
+                Cyber City, CS 12345<br />
+                United States
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
+          © 2024 SecureIT Solutions. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
+}
