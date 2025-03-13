@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <section className="py-20 md:py-32 bg-gradient-to-b from-background to-muted/30">
-        <div className="container px-6 md:px-8">
+        <div className="container px-8 md:px-16 max-w-7xl mx-auto">
           <div className="max-w-2xl">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
               Secure Your Digital Future
@@ -28,7 +28,7 @@ export default function Home() {
       </section>
 
       <section className="py-16 md:py-24">
-        <div className="container px-6 md:px-8">
+        <div className="container px-8 md:px-16 max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12">Our Services</h2>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <Link href="/services/it-audit">

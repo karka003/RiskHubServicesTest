@@ -3,7 +3,7 @@ import { Shield } from "lucide-react";
 export function Footer() {
   return (
     <footer className="border-t bg-muted/40">
-      <div className="container py-8 md:py-12">
+      <div className="container py-8 md:py-12 px-8 md:px-16 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
             <div className="flex items-center space-x-2">

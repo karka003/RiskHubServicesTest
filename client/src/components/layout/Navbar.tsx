@@ -5,7 +5,7 @@ import { Shield } from "lucide-react";
 export function Navbar() {
   return (
     <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center px-4">
+      <div className="container flex h-16 items-center px-8 md:px-16 max-w-7xl mx-auto">
         <Link href="/">
           <a className="flex items-center space-x-2">
             <Shield className="h-6 w-6" />

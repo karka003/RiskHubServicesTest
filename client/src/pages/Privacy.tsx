@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Privacy() {
   return (
-    <div className="container py-12">
+    <div className="container py-12 px-8 md:px-16 max-w-6xl mx-auto">
       <Card className="bg-background/30">
         <CardHeader>
           <CardTitle className="text-white text-3xl">Privacy Policy</CardTitle>
