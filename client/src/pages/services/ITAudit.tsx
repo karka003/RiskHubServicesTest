@@ -9,8 +9,8 @@ export default function ITAudit() {
         description="Our comprehensive IT security audit service helps identify vulnerabilities and ensures your systems meet industry standards and compliance requirements."
         image="https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
       />
-      
-      <div className="container py-12">
+
+      <div className="container px-6 md:px-8 py-16 md:py-24">
         <div className="grid gap-12 md:grid-cols-2">
           <div className="space-y-6">
             <h2 className="text-2xl font-bold">What We Offer</h2>
