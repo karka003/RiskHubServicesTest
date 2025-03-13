@@ -9,6 +9,8 @@ import ITAudit from "@/pages/services/ITAudit";
 import CyberTraining from "@/pages/services/CyberTraining";
 import RiskManagement from "@/pages/services/RiskManagement";
 import PenTesting from "@/pages/services/PenTesting";
+import Privacy from "@/pages/Privacy";
+import Cookies from "@/pages/Cookies";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -19,6 +21,8 @@ function Router() {
       <Route path="/services/cyber-training" component={CyberTraining} />
       <Route path="/services/risk-management" component={RiskManagement} />
       <Route path="/services/pen-testing" component={PenTesting} />
+      <Route path="/privacy" component={Privacy} />
+      <Route path="/cookies" component={Cookies} />
       <Route component={NotFound} />
     </Switch>
   );
